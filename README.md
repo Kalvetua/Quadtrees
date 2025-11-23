@@ -1,5 +1,7 @@
 **Introduction**
+
 Quadtrees are data structures that use recursion to partition a two-dimensional space into four equal regions. The foundation of a quadtree is a structure of four quadrants, or nodes, each which are able to store information. Once the amount of information in a quadrant has reached a set limit it subdivides into another quartet of sections that in turn also store information. As the quadtree receives more input it will continue to recursively subdivide into quadrants of quadrants of quadrants, each section responsible for a set amount of data...
 
 **Why use a quadtree?**
+
 When information on a larger scale is stored in a list it can become expensive to iterate through the array of infromation to find a required element. However, that cost can be reduced by a significant amount through the use of more efficient methods- such as a quadtree. Quadtrees ensure a more efficient way to search for data through its spacial partitioning system since it is built in a manner that mitigates the need to inspect all elements that are stored. Instead by using positional information, such as coordinates, it is possible to immediately pinpoint the quadrant in which a piece of information is stored as well as the subsequent subquadrants. In other words, Quadtrees are more efficient than regular data structures because - if implemented correctly - it both saves resources and time when trying to find a specific piece of data.
